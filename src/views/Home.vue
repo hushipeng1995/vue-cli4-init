@@ -1,25 +1,12 @@
 <template>
-  <div class="home">
-    home
-    <div class="box"></div>
-    <van-button type="primary">主要按钮</van-button>
-  </div>
+  <div class="home">home</div>
 </template>
 
 <script>
 // @ is an alias to /src
-
 export default {
-  name: 'Home',
-  components: {},
-  mounted() {}
+  name: 'Home'
 }
 </script>
 
-<style lang="scss" scoped>
-.box {
-  width: 750px;
-  height: 200px;
-  background: black;
-}
-</style>
+<style lang="scss" scoped></style>

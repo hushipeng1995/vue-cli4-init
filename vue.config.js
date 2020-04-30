@@ -32,14 +32,6 @@ module.exports = {
     loaderOptions: {
       sass: {
         prependData: `@import "~@/style/common.scss";`
-      },
-      postcss: {
-        plugins: [
-          require('postcss-pxtorem')({
-            rootValue: 37.5,
-            propList: ['*']
-          })
-        ]
       }
     }
   }
